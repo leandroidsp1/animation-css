@@ -3,17 +3,28 @@
         background-color: blue;
         width: 200px;
         height: 200px;
+        border-radius: 0;
     }
     30% {
         background-color: red;
         width: 400px;
         height: 100px;
-        transform: translate(300px, 300px);
+        transform: translate(300px, 300px) rotate(0deg);
+        border-radius: 0;
     }
-    80% {
-        background-color: green;
-        width: 800px;
+    70% {
+        background-color: purple;
+        width: 100px;
+        height: 100px;
+        transform: translate(0, 0) rotate(0deg);
+        border-radius: 50%;
+    }
+    100% {
+        background-color: yellowgreen;
+        width: 200px;
         height: 200px;
+        transform: translate(800px, 600px) rotate(360deg);
+        border-radius: 0;
     }
 }
 
